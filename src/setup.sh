@@ -37,6 +37,6 @@ snarkjs groth16 prove zkey/withdraw_0001.zkey withdraw_js/witness.wtns proof.jso
 # verify proof
 snarkjs groth16 verify tau/verification_key.json public.json proof.json
 
-# generate verifier.sol
+# generate verifier.sol 导出合约
 snarkjs zkey export solidityverifier zkey/withdraw_0001.zkey ../contracts/verifier.sol
 
